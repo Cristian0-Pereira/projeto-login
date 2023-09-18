@@ -30,10 +30,12 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px #00000068;
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 div#img{
     display: block;
-    background: #5f2c82 url('../img/login-img.jpg') no-repeat;
+    background: #5f2c82 url('../img/cidade.jpg') no-repeat;
     background-size: cover;
     height: 200px;
     background-position: center center;
@@ -41,5 +43,4 @@ div#img{
 div#form{
     display: block;
     padding: 10px;
-    
 }
