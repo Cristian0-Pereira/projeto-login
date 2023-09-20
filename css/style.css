@@ -23,7 +23,6 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background: white;
     width: 250px;
@@ -32,6 +31,7 @@ section#login{
     box-shadow: 0 0 10px #00000068;
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 div#img{
     display: block;
@@ -50,6 +50,7 @@ div#form h1{
 }
 div#form p{
     font-size: .8em;
+    text-align: left;
 }
 div.campo{
     display: block;
@@ -74,10 +75,10 @@ div.campo{
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-12px);
     border: 0;
     border-radius: 7px;
     padding: 4px;
+    transform: translateY(-12px);
 }
 .campo input:focus-within{
     background: white;
@@ -114,6 +115,7 @@ a.botao{
 a.botao:hover{
     background: #49e09d;
     color: white;
+    text-decoration: underline;
 }
 a.botao span{
     font-size: .8em;

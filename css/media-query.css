@@ -1,11 +1,12 @@
 /* Typical Device Breakpoint */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    body{
+    body{ /* TABLET */
         background-image: linear-gradient(to top, #49a09d, #5f2c82) ;
     }
     section#login{
         width: 70vw;
+        height: 280px;
     }
     div#img{
         width: 30%;
@@ -16,13 +17,18 @@
         float: right;
         width: 70%;
     }
+    div#form p{
+        margin: 10px 0;
+        text-align: center;
+    }
 }
 @media screen and (min-width: 992px) {
-    body{
+    body{ /* DESKTOP */
         background-image: linear-gradient(to top, #49a09d, #5f2c82) ;
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
     div#img{
         float: right;
@@ -37,6 +43,8 @@
         font-size: 2em;
     }
     div#form p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 10px 0;
+        text-align: center;
     }
 }
